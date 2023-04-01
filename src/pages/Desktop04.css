@@ -1,0 +1,298 @@
+.ai-planet-logo4 {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 8.88rem;
+  width: 6.56rem;
+  height: 2.56rem;
+}
+.person-icon4 {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.menu-item24,
+.menu-item25 {
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-lg);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.menu-item24 {
+  position: absolute;
+  top: calc(50% - 23px);
+  right: 8.88rem;
+  display: none;
+}
+.menu-item25 {
+  display: flex;
+}
+.arrow-drop-down-icon30 {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.menu4,
+.navbar4 {
+  position: absolute;
+}
+.menu4 {
+  top: calc(50% - 22px);
+  left: calc(50% - 362px);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navbar4 {
+  width: 100%;
+  top: 0.13rem;
+  right: 0;
+  left: 0;
+  background-color: var(--celestial-hue-celestial-light);
+  height: 4rem;
+  overflow: hidden;
+}
+.image-icon4 {
+  position: relative;
+  border-radius: var(--br-3xs);
+  width: 7.5rem;
+  height: 7.5rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  object-fit: cover;
+}
+.interviewme4 {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.edit-icon {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.edit {
+  position: relative;
+  line-height: 175%;
+  font-weight: 500;
+}
+.login-button,
+.login-button2 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-lg);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.login-button {
+  border: 1px solid var(--celestial-hue-celestial-light);
+  display: flex;
+}
+.login-button2 {
+  border: 1px solid var(--celestial-grey-cg-500);
+  display: none;
+  color: var(--celestial-grey-cg-500);
+}
+.buttons,
+.heading24 {
+  display: flex;
+  justify-content: flex-start;
+}
+.buttons {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--desktop-body-1-b1-400-size);
+}
+.heading24 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-21xl);
+}
+.built-with-gpt-3,
+.frame-child {
+  align-self: stretch;
+  position: relative;
+}
+.built-with-gpt-3 {
+  font-size: var(--desktop-heading-6-h6-400-size);
+  font-weight: 500;
+}
+.frame-child {
+  border-right: 1px solid var(--celestial-grey-cg-50);
+  box-sizing: border-box;
+  width: 0.06rem;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.calendar-today-icon {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.march {
+  position: relative;
+}
+.date,
+.star-outline-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.date {
+  border-radius: var(--br-81xl);
+  background-color: var(--celestial-blue-cb-700);
+  padding: var(--padding-7xs) var(--padding-xs);
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.star-outline-parent {
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--desktop-body-2-b2-500-size);
+  color: var(--celestial-grey-cg-50);
+  font-family: var(--desktop-body-1-b1-400);
+}
+.hero4,
+.hero5 {
+  position: absolute;
+}
+.hero5 {
+  top: calc(50% - 112px);
+  left: 8.88rem;
+  width: 72.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.hero4 {
+  top: 4.13rem;
+  left: 0;
+  background-color: var(--celestial-blue-cb-900);
+  width: 90rem;
+  height: 26rem;
+  overflow: hidden;
+  font-size: var(--desktop-heading-1-h1-600-size);
+  color: var(--celestial-hue-celestial-light);
+}
+.blank-line {
+  margin: 0;
+}
+.lorem-ipsum-dolor-container {
+  position: absolute;
+  top: 36.13rem;
+  left: 9rem;
+  font-family: var(--desktop-body-1-b1-400);
+  color: var(--celestial-grey-cg-700);
+  display: inline-block;
+  width: 47.69rem;
+}
+.description {
+  position: absolute;
+  top: 33.25rem;
+  left: 8.88rem;
+  font-size: var(--desktop-heading-5-h5-500-size);
+  color: var(--celestial-grey-cg-900);
+}
+.hackathon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.prestige-interview-challenge {
+  position: absolute;
+  top: 2.38rem;
+  left: 0.13rem;
+  font-size: var(--desktop-heading-5-h5-500-size);
+  font-weight: 500;
+  color: var(--celestial-grey-cg-700);
+  display: inline-block;
+  width: 17.19rem;
+}
+.calendar-today-icon1 {
+  position: relative;
+  width: 1.13rem;
+  height: 1.13rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.feb-2023- {
+  position: relative;
+  font-weight: 500;
+}
+.date1 {
+  position: absolute;
+  top: 7.13rem;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--desktop-body-2-b2-500-size);
+  font-family: var(--desktop-body-1-b1-400);
+}
+.hackathon-info {
+  position: absolute;
+  top: 33.25rem;
+  left: 63.81rem;
+  width: 17.31rem;
+  height: 8.25rem;
+  font-size: var(--desktop-heading-6-h6-400-size);
+  color: var(--celestial-grey-cg-400);
+}
+.login-button3,
+.login-button5 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--celestial-grey-cg-500);
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-lg);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.login-button3 {
+  display: flex;
+}
+.login-button5 {
+  display: none;
+}
+.buttons1 {
+  position: absolute;
+  top: 44rem;
+  left: 63.81rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  color: var(--celestial-grey-cg-500);
+}
+.desktop-04 {
+  position: relative;
+  background-color: var(--celestial-hue-celestial-light);
+  width: 100%;
+  height: 67.5rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--desktop-body-1-b1-400-size);
+  color: var(--celestial-green-cg-600);
+  font-family: var(--desktop-heading-6-h6-400);
+}

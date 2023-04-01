@@ -1,0 +1,301 @@
+.ai-planet-logo5 {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 8.88rem;
+  width: 6.56rem;
+  height: 2.56rem;
+}
+.person-icon5 {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.menu-item30 {
+  position: absolute;
+  top: calc(50% - 23px);
+  right: 8.88rem;
+  border-radius: var(--br-3xs);
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-lg);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.learn-ai25 {
+  position: relative;
+  line-height: 175%;
+  font-weight: 500;
+}
+.menu-item31 {
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-lg);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.arrow-drop-down-icon36 {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.menu5,
+.navbar5 {
+  position: absolute;
+}
+.menu5 {
+  top: calc(50% - 22px);
+  left: calc(50% - 362px);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navbar5 {
+  width: 100vw;
+  top: 0.13rem;
+  right: 0;
+  left: 0;
+  background-color: var(--celestial-hue-celestial-light);
+  height: 4rem;
+  overflow: hidden;
+}
+.image-icon5 {
+  position: relative;
+  border-radius: var(--br-3xs);
+  width: 7.5rem;
+  height: 7.5rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  object-fit: cover;
+}
+.interviewme5 {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.login-button6,
+.login-button8 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-lg);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.login-button6 {
+  border: 1px solid var(--celestial-hue-celestial-light);
+  display: flex;
+}
+.login-button8 {
+  border: 1px solid var(--celestial-grey-cg-500);
+  display: none;
+  color: var(--celestial-grey-cg-500);
+}
+.buttons2,
+.heading25 {
+  display: flex;
+  justify-content: flex-start;
+}
+.buttons2 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--desktop-body-1-b1-400-size);
+}
+.heading25 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-21xl);
+}
+.built-with-gpt-31 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--desktop-heading-6-h6-400-size);
+  font-weight: 500;
+}
+.frame-item,
+.star-icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.star-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+}
+.frame-item {
+  align-self: stretch;
+  border-right: 1px solid var(--celestial-grey-cg-50);
+  box-sizing: border-box;
+  width: 0.06rem;
+  opacity: 0.5;
+}
+.calendar-today-icon2 {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.march1 {
+  position: relative;
+}
+.date2,
+.star-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.date2 {
+  border-radius: var(--br-81xl);
+  background-color: var(--celestial-blue-cb-700);
+  padding: var(--padding-7xs) var(--padding-xs);
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.star-parent {
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--desktop-body-2-b2-500-size);
+  color: var(--celestial-grey-cg-50);
+  font-family: var(--desktop-body-1-b1-400);
+}
+.hero6,
+.hero7 {
+  position: absolute;
+}
+.hero7 {
+  top: calc(50% - 112px);
+  left: 8.88rem;
+  width: 72.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.hero6 {
+  top: 4.13rem;
+  left: 0;
+  background-color: var(--celestial-blue-cb-900);
+  width: 90rem;
+  height: 26rem;
+  overflow: hidden;
+  font-size: var(--desktop-heading-1-h1-600-size);
+  color: var(--celestial-hue-celestial-light);
+}
+.lorem-ipsum-dolor5 {
+  margin: 0;
+}
+.lorem-ipsum-dolor-container1 {
+  position: absolute;
+  top: 36.13rem;
+  left: 9rem;
+  font-family: var(--desktop-body-1-b1-400);
+  color: var(--celestial-grey-cg-700);
+  display: inline-block;
+  width: 47.69rem;
+}
+.description1 {
+  position: absolute;
+  top: 33.25rem;
+  left: 8.88rem;
+  font-size: var(--desktop-heading-5-h5-500-size);
+  color: var(--celestial-grey-cg-900);
+}
+.hackathon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.prestige-interview-challenge1 {
+  position: absolute;
+  top: 2.38rem;
+  left: 0.13rem;
+  font-size: var(--desktop-heading-5-h5-500-size);
+  font-weight: 500;
+  color: var(--celestial-grey-cg-700);
+  display: inline-block;
+  width: 17.19rem;
+}
+.calendar-today-icon3 {
+  position: relative;
+  width: 1.13rem;
+  height: 1.13rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.feb-2023-1 {
+  position: relative;
+  font-weight: 500;
+}
+.date3 {
+  position: absolute;
+  top: 7.13rem;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--desktop-body-2-b2-500-size);
+  font-family: var(--desktop-body-1-b1-400);
+}
+.hackathon-info1 {
+  position: absolute;
+  top: 33.25rem;
+  left: 63.81rem;
+  width: 17.31rem;
+  height: 8.25rem;
+  font-size: var(--desktop-heading-6-h6-400-size);
+  color: var(--celestial-grey-cg-400);
+}
+.login-button11,
+.login-button9 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--celestial-grey-cg-500);
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-lg);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.login-button9 {
+  display: flex;
+}
+.login-button11 {
+  display: none;
+}
+.buttons3 {
+  position: absolute;
+  top: 44rem;
+  left: 63.81rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  color: var(--celestial-grey-cg-500);
+}
+.desktop-05 {
+  position: relative;
+  background-color: var(--celestial-hue-celestial-light);
+  width: 100%;
+  height: 67.5rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--desktop-body-1-b1-400-size);
+  color: var(--celestial-green-cg-600);
+  font-family: var(--desktop-heading-6-h6-400);
+}
