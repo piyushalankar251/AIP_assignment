@@ -81,9 +81,9 @@ const Desktop01 = () => {
           <div className="lorem-ipsum-dolor">{`Lorem ipsum dolor sit amet consectetur. Urna cursus amet pellentesque in parturient purus feugiat faucibus. Congue laoreet duis porta turpis eget suspendisse ac pharetra amet. Vel nisl tempus nec vitae. `}</div>
 
           <button className="sign-up-button" onClick={handleClick}>
-            <div className="join-for-free">
+          
               Upload Submission
-              </div>
+            
             
       
           </button>

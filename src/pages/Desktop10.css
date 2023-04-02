@@ -184,11 +184,19 @@
   top: 4.13rem;
   left: 0;
   background-color: var(--celestial-blue-cb-900);
-  width: 90rem;
+  width: 100vw;
   height: 26rem;
   overflow: hidden;
   font-size: var(--desktop-heading-1-h1-600-size);
   color: var(--celestial-hue-celestial-light);
+}
+button{
+  background-color: #003145;
+  color: whitesmoke;
+  transform:translateX(25vw);
+  width: 8vw;
+  height: 4vh;
+  cursor: pointer;
 }
 .pirate-ipsum-arrgh3 {
   margin: 0;

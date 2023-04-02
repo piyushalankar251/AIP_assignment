@@ -133,12 +133,22 @@
   height: 18.75rem;
   object-fit: cover;
 }
+input[type="search"]{
+  outline: none;
+  border:none;
+  box-sizing: border-box;
+  width: 18.75rem;
+  height: 2rem;
+  flex-shrink: 0;
+  padding: var(--padding-base);
+  gap: var(--gap-5xs);
+}
 .hero9 {
   position: absolute;
   top: 4rem;
   left: 0;
   background-color: var(--celestial-blue-cb-900);
-  width: 90rem;
+  width: 100vw;
   height: 26rem;
   overflow: hidden;
   font-size: var(--desktop-heading-1-h1-600-size);
@@ -302,6 +312,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-13xl);
+  cursor: pointer;
 }
 .card26,
 .card27,

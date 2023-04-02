@@ -69,59 +69,36 @@ const Desktop08 = () => {
         <div className="item18">
           <div className="title8">Title</div>
           <div className="pirate-ipsum-container">
-            <div className="title8">Pirate Ipsum</div>
+            <input className="title8"placeholder="Pirate Ipsum"type="text"></input>
           </div>
         </div>
         <div className="item18">
           <div className="title8">Summary</div>
           <div className="pirate-ipsum-container">
-            <div className="shiver-to-tender1">
-              Shiver to tender hempen brig quarterdeck jolly pay. Furl sail
-              crimp furl pinnace.
-            </div>
+            <input className="shiver-to-tender1"type="text"placeholder="Shiver to tender hempen brig quarterdeck jolly pay. Furl sail
+              crimp furl pinnace.">
+              
+            </input>
           </div>
         </div>
         <div className="item20">
           <div className="description4">Description</div>
           <div className="pirate-ipsum-arrgh-bounty-warp-container">
             <div className="shiver-to-tender1">
-              <p className="pirate-ipsum-arrgh1">
-                Pirate ipsum arrgh bounty warp jack. Locker rig hail-shot log
-                jack parrel. Keelhaul swab lugsail me cat blow ensign. Spot dock
-                pinnace quarterdeck yawl ketch cup mizzen coxswain. Tell halter
-                chase locker boatswain pink guns piracy gaff grog. On chain
-                fluke measured arr execution spanker driver. Keelhaul crow's
-                weigh reef nipperkin lanyard timbers spirits keelhaul. Sloop
-                sink dock yard pillage jennys lubber jennys salmagundi bounty.
-              </p>
-              <p className="pirate-ipsum-arrgh1">&nbsp;</p>
-              <p className="pirate-ipsum-arrgh1">
-                Arr cog log sails to. Log cutlass killick yawl crack coast
-                driver. Blossom spanker round boatswain pillage cutlass log or
-                grog grog. Shot lass chantey nest hail-shot topgallant. Corsair
-                fathom landlubber across hempen. Seas fer schooner ipsum me prey
-                cup.
-              </p>
-              <p className="pirate-ipsum-arrgh1">
-                Furl chantey six gabion spirits boom sloop shiver brace locker.
-                Arr brethren hearties jolly guns jolly prey blossom anchor. Gun
-                bow arr pillage gunwalls. Me furl log ipsum blimey. Tea piracy
-                rum o'nine cup ahoy pirate spirits. Bounty spanker guns deck
-                cat. Nest or topsail scurvy ballast men splice spyglass
-                topgallant coxswain. Cat belay chains spanish guns lanyard. Grog
-                arrgh corsair pay no lateen aft chain bow. Spanish of heave
-                topsail driver. Round nest tails tell warp aye.
-              </p>
-              <p className="pirate-ipsum-arrgh1">&nbsp;</p>
-              <p className="pirate-ipsum-arrgh1">
-                Gaff ahoy the shrouds anchor pirate bow cat aft. Black nest
+              <textarea placeholder=" Shiver to tender hempen brig quarterdeck jolly pay. Furl sail
+              crimp furl pinnace.Pirate ipsum arrgh bounty warp jack. Locker rig hail-shot log
+              jack parrel. Keelhaul swab lugsail me cat blow ensign. Spot dock
+              pinnace quarterdeck yawl ketch cup mizzen coxswain. Tell halter
+              chase locker boatswain pink guns piracy gaff grog. On chain
+              fluke measured arr execution spanker driver. Keelhaul crow's
+              weigh reef nipperkin lanyard timbers spirits keelhaul. Sloop
+              sink dock yard pillage jennys lubber jennys salmagundi bounty.Gaff ahoy the shrouds anchor pirate bow cat aft. Black nest
                 pounders hearties or tales guns hail-shot pinnace brethren.
                 Nipper crack fathom schooner fleet blimey. Quarterdeck pink gaff
                 spanker of. Fer pirate crow's scourge boatswain the jib chain
                 pounders blow. Spanker clipper jones' jib guns shot jib. Aye
                 pounders sheet gabion parrel fer sails weigh. Gold ahoy shrouds
-                scurvy clipper crack spot locker.
-              </p>
+                scurvy clipper crack spot locker."maxLength={3000}></textarea>
             </div>
           </div>
           <div className="characters2">1,580 / 3,000 characters</div>
@@ -136,18 +113,14 @@ const Desktop08 = () => {
             <div className="shiver-to-tender1">PirateIpsume_thumbnail.png</div>
             <div className="white-button2">
               <div className="edit-profile2">Reupload</div>
-              <img
-                className="arrow-drop-down-icon59"
-                alt=""
-                src="/cloudupload1.svg"
-              />
+             <input type="file"accept=".jpg,.png,.jpeg"></input>
             </div>
           </div>
         </div>
         <div className="item18">
-          <div className="title8">Hackathon Name</div>
+          <input type="text" className="title8"placeholder="Hackathon Name"></input>
           <div className="pirate-ipsum-container">
-            <div className="title8">Oceanic Treasure Hunt</div>
+            <input type="text" className="title8"placeholder="Oceanic Treasure Hunt"></input>
           </div>
         </div>
         <div className="item23">
@@ -177,17 +150,17 @@ const Desktop08 = () => {
         <div className="item18">
           <div className="title8">GitHub Repository</div>
           <div className="pirate-ipsum-container">
-            <div className="title8">
-              https://github.com/username/projectname/releases
-            </div>
+            <input type="url" className="title8"placeholder=" https://github.com/username/projectname/releases">
+             
+            </input>
           </div>
         </div>
         <div className="item18">
           <div className="title8">Other Links</div>
           <div className="pirate-ipsum-container">
-            <div className="title8">
-              https://drive.google.com/file/d/csdkbcsdbCJKD_skjaa122xs/view
-            </div>
+            <input type="url" className="title8"placeholder="https://drive.google.com/file/d/csdkbcsdbCJKD_skjaa122xs/view">
+              
+            </input>
           </div>
         </div>
         <div className="item26">

@@ -77,7 +77,7 @@ const Desktop13 = () => {
                   alt=""
                   src="/edit1.svg"
                 />
-                <div className="learn-ai55">Edit</div>
+                <button className="learn-ai55">Edit</button>
               </div>
               <div className="login-button12">
                 <img
@@ -85,7 +85,7 @@ const Desktop13 = () => {
                   alt=""
                   src="/delete.svg"
                 />
-                <div className="learn-ai55">Delete</div>
+                <button className="learn-ai55">Delete</button>
               </div>
               <div className="login-button14">
                 <img

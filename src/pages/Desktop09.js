@@ -87,7 +87,7 @@ const Desktop09 = () => {
       <div className="utilities5">
         <div className="search10">
           <img className="arrow-drop-down-icon65" alt="" src="/search5.svg" />
-          <div className="search11">Search</div>
+          <input className="search11"type="search"placeholder="Search"></input>
         </div>
         <div className="filter5">
           <div className="search11">Newest</div>

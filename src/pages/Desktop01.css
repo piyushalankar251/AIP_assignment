@@ -148,7 +148,7 @@
   align-items: center;
   justify-content: center;
   font-size: var(--desktop-body-1-b1-400-size);
-  filter: drop-shadow(0 0 1rem rgb(80, 79, 79));
+  filter: drop-shadow(0 0 1rem black);
 }
 .text-button {
   position: absolute;

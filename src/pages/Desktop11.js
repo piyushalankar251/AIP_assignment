@@ -68,21 +68,21 @@ const Desktop11 = () => {
         <div className="item9">
           <div className="pirate-ipsum">Title</div>
           <div className="pirate-ipsum-wrapper">
-            <div className="pirate-ipsum">Pirate Ipsum</div>
+            <div className="pirate-ipsum"><input type="text"placeholder="Pirate Ipsum"></input></div>
           </div>
         </div>
         <div className="item9">
           <div className="pirate-ipsum">Summary</div>
           <div className="pirate-ipsum-wrapper">
-            <div className="shiver-to-tender">
-              Shiver to tender hempen brig quarterdeck jolly pay. Furl sail
-              crimp furl pinnace.
-            </div>
+            <input type="text" className="shiver-to-tender"placeholder="Shiver to tender hempen brig quarterdeck jolly pay. Furl sail
+              crimp furl pinnace.">
+              
+            </input>
           </div>
         </div>
         <div className="item11">
           <div className="description3">Description</div>
-          <div className="pirate-ipsum-arrgh-bounty-warp-wrapper">
+          <textarea className="pirate-ipsum-arrgh-bounty-warp-wrapper">
             <div className="shiver-to-tender">
               <p className="pirate-ipsum-arrgh">
                 Pirate ipsum arrgh bounty warp jack. Locker rig hail-shot log
@@ -122,7 +122,7 @@ const Desktop11 = () => {
                 scurvy clipper crack spot locker.
               </p>
             </div>
-          </div>
+          </textarea>
           <div className="characters1">1,580 / 3,000 characters</div>
         </div>
         <div className="item12">
@@ -146,7 +146,7 @@ const Desktop11 = () => {
         <div className="item9">
           <div className="pirate-ipsum">Hackathon Name</div>
           <div className="pirate-ipsum-wrapper">
-            <div className="pirate-ipsum">Oceanic Treasure Hunt</div>
+            <input type="text"placeholder="Oceanic Treasure Hunt"></input>
           </div>
         </div>
         <div className="item14">
@@ -176,17 +176,17 @@ const Desktop11 = () => {
         <div className="item9">
           <div className="pirate-ipsum">GitHub Repository</div>
           <div className="pirate-ipsum-wrapper">
-            <div className="pirate-ipsum">
-              https://github.com/username/projectname/releases
-            </div>
+            <input className="pirate-ipsum" type="url"placeholder="   https://github.com/username/projectname/releases">
+           
+            </input>
           </div>
         </div>
         <div className="item9">
           <div className="pirate-ipsum">Other Links</div>
           <div className="pirate-ipsum-wrapper">
-            <div className="pirate-ipsum">
-              https://drive.google.com/file/d/csdkbcsdbCJKD_skjaa122xs/view
-            </div>
+            <input className="pirate-ipsum"type="url"placeholder=" https://drive.google.com/file/d/csdkbcsdbCJKD_skjaa122xs/view">
+             
+            </input>
           </div>
         </div>
         <div className="item17">

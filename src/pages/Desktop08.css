@@ -5,6 +5,25 @@
   width: 6.56rem;
   height: 2.56rem;
 }
+input[type=text],input[type=email],input[type="url"]{
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  border: none;
+  flex-direction: row;
+  padding: var(--padding-base);
+  align-items: center;
+  font-size: var(--desktop-body-1-b1-400-size);
+  color: var(--celestial-grey-cg-700);
+  font-family: var(--desktop-body-1-b1-400);
+  width:32.8vw;
+
+}
+textarea{
+  width: 33vw;
+  height: 22vh;
+  border-radius:0.5rem;
+  padding: var(--padding-base);
+}
 .arrow-drop-down-icon59,
 .person-icon9 {
   position: relative;
@@ -91,7 +110,6 @@
   border-radius: var(--br-5xs);
   border: 1px solid var(--celestial-grey-cg-200);
   flex-direction: row;
-  padding: var(--padding-base);
   align-items: center;
   font-size: var(--desktop-body-1-b1-400-size);
   color: var(--celestial-grey-cg-700);
@@ -120,7 +138,6 @@
   border: 1px solid var(--celestial-grey-cg-200);
   display: flex;
   flex-direction: row;
-  padding: var(--padding-base);
   align-items: flex-start;
   justify-content: flex-start;
   font-size: var(--desktop-body-1-b1-400-size);
@@ -444,6 +461,7 @@
   gap: var(--gap-21xl);
   font-size: var(--desktop-heading-6-h6-400-size);
   color: var(--celestial-grey-cg-900);
+  width: 80vw;
 }
 .desktop-08 {
   position: relative;

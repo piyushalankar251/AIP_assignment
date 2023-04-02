@@ -68,25 +68,25 @@ const Desktop07 = () => {
         <div className="item">
           <div className="title">Title</div>
           <div className="title-of-your-submission-wrapper">
-            <div className="title">Title of your submission</div>
+            <input className="title"placeholder="Title of your submission"type="text"></input>
           </div>
         </div>
         <div className="item">
           <div className="title">Summary</div>
           <div className="title-of-your-submission-wrapper">
-            <div className="title">
-              A short summary of your submission (this will be visible with your
-              submission)
-            </div>
+            <input className="title"type="text" placeholder=" A short summary of your submission (this will be visible with your
+              submission)">
+             
+            </input>
           </div>
         </div>
         <div className="item2">
           <div className="description2">Description</div>
           <div className="write-a-long-description-of-yo-wrapper">
-            <div className="title">
-              Write a long description of your project. You can describe your
-              idea and approach here.
-            </div>
+            <textarea className="title"placeholder="Write a long description of your project. You can describe your
+              idea and approach here."maxLength={3000}>
+              
+            </textarea>
           </div>
           <div className="characters">0 / 3,000 characters</div>
         </div>
@@ -101,12 +101,13 @@ const Desktop07 = () => {
               alt=""
               src="/addphotoalternate.svg"
             />
+             <input type="file" accept=".jpg,.jpeg,.png"></input>
           </div>
         </div>
         <div className="item">
           <div className="title">Hackathon Name</div>
           <div className="title-of-your-submission-wrapper">
-            <div className="title">Enter the name of the hackathon</div>
+            <input className="title"type="text"placeholder="Enter the name of the hackathon"></input>
           </div>
         </div>
         <div className="item5">
@@ -136,17 +137,17 @@ const Desktop07 = () => {
         <div className="item">
           <div className="title">GitHub Repository</div>
           <div className="title-of-your-submission-wrapper">
-            <div className="title">
-              Enter your submission’s public GitHub repository link
-            </div>
+            <input className="title"type="text"placeholder=" Enter your submission’s public GitHub repository link">
+             
+            </input>
           </div>
         </div>
         <div className="item">
           <div className="title">Other Links</div>
           <div className="title-of-your-submission-wrapper">
-            <div className="title">
-              You can upload a video demo or URL of you demo app here.
-            </div>
+            <input className="title"type="text"placeholder=" You can upload a video demo or URL of you demo app here.">
+             
+            </input>
           </div>
         </div>
         <div className="item8">
